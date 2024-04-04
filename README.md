@@ -68,6 +68,10 @@ the job as succeeded or failed.  For example:
 2. `GET /jobs/next`, returning `{"jobId": "1a2b3c", "description": "Sample job", "status": "running}
 3. `POST /jobs/complete` with `{"jobId": "1a2b3c", "status": "succeeded"}
 
+## Dashboard
+
+A *very* minimal dashboard is also available at `/`.  It updates the list of jobs once per second.
+
 ## Tasks
 
 Sadly, `simplequeue` doesn't work perfectly.  It's got some bugs.  For this exercise, we'd like to:
@@ -75,3 +79,6 @@ Sadly, `simplequeue` doesn't work perfectly.  It's got some bugs.  For this exer
  1. Find the bugs
  2. Add tests to demonstrate the bugs
  3. Fix the bugs so the tests pass
+
+We're also suspect that both the API and dashboard could use some improvements.  Feel free to
+make what changes you see fit.
