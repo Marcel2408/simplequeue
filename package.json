@@ -1,0 +1,23 @@
+{
+  "name": "simplequeue",
+  "version": "1.0.0",
+  "description": "A simple queue server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkww/simplequeue.git"
+  },
+  "author": "Benjamin Pollack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkww/simplequeue/issues"
+  },
+  "homepage": "https://github.com/tkww/simplequeue#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
